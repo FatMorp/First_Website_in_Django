@@ -2,13 +2,18 @@
 <head>
 
     <title>
+        {% block title %}
         FatMorp Website
+        {% endblock %}
     </title>
 </head>
 
 <body>
+    <div id="content, name="content">
+    {% block content %}
 
-    <p>Base Template</p>
+    {% endblock %}
+    </div>
 
 </body>
 </html>
